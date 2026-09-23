@@ -9,6 +9,9 @@ pkgs.mkShell {
     go
     gopls
     gotools
+    pkg-config
+    gpgme
+    libseccomp
   ];
 
   shellHook = ''
